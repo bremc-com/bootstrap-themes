@@ -1,0 +1,41 @@
+@import url(https://use.typekit.net/ttv8ztr.css);
+
+$green: #008457;
+$primary: $green;
+$black: #000;
+$cyan: #3498DB;
+$secondary: $black;
+$light: #DBD7D2;
+$red: #DB2B39;
+$yellow: #F3A712;
+$breadcrumb-bg: null;
+$white: #fff;
+$blue: #6A96B6;
+$success: $green;
+$info: $blue;
+$warning: $yellow;
+$danger: $red;
+$badge-padding-y: .375rem;
+$badge-padding-x: .75rem;
+$badge-pill-padding-x: .375rem;
+$font-family-sans-serif: myriad-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.btn-warning,
+.btn-warning.disabled,
+.badge-warning,
+.badge.bg-warning,
+.bg-text-warning,
+.btn-info,
+.btn-info.disabled,
+.badge-info,
+.badge.bg-info,
+.bg-text-info {
+  color: $white;
+}
+
+.bg-light,
+.text-bg-white {
+  color: $gray-900;
+}
