@@ -18,6 +18,8 @@ $danger: $red;
 $badge-padding-y: .375rem;
 $badge-padding-x: .75rem;
 $badge-pill-padding-x: .375rem;
+$navbar-dark-color: rgba($white, 1);
+$breadcrumb-padding-y: 0.75rem;
 $font-family-sans-serif: myriad-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
