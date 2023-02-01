@@ -23,29 +23,32 @@ $breadcrumb-padding-y: 0.75rem;
 $font-family-sans-serif: myriad-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./_select2dark.css";
+// @import "./_select2dark.css";
 
 .btn-warning,
-.btn-warning.disabled,
-.badge-warning,
-.badge.bg-warning,
-.bg-text-warning,
-.btn-info,
-.btn-info.disabled,
-.badge-info,
-.badge.bg-info,
-.bg-text-info,
 .btn-warning:hover,
+.btn-warning.disabled,
 .btn-warning.disabled:hover,
+
+.badge-warning,
 .badge-warning:hover,
+.badge.bg-warning,
 .badge.bg-warning:hover,
-.bg-text-warning:hover,
+.text-bg-warning,
+.text-bg-warning:hover,
+
+.btn-info,
 .btn-info:hover,
+.btn-info.disabled,
 .btn-info.disabled:hover,
+
+.badge-info,
 .badge-info:hover,
+.badge.bg-info,
 .badge.bg-info:hover,
-.bg-text-info:hover {
-  color: $white;
+.text-bg-info,
+.text-bg-info:hover {
+  color: $white !important;
 }
 
 .bg-light,
